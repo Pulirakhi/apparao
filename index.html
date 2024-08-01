@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .parentContainer {
+                width: 200px;
+                height: 200px;
+                background-color: red;
+                animation: apparao 4s infinite;
+                transition: all 4s;
+            }
+            @keyframes apparao {
+                0% {
+                    transform: rotate(90deg);
+                    background-color: black;
+                    transition: all 3s;
+                    margin: 120px auto;
+                }
+                50% {
+                    background: linear-gradient(red,blue,orange);
+                    border-radius: 50%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parentContainer">
+
+        </div>
+    </body>
+</html>
